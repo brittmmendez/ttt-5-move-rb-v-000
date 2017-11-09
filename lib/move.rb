@@ -11,6 +11,6 @@ def input_to_index(move)
 index=(move.to_i)-1
 end
 
-def update_aray_at_with(array,index,value="X")
+def move(array,index,value="X")
   array[index]=value
 end
