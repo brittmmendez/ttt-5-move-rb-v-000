@@ -8,9 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-move_int=(move.to_i)-1
+index=(move.to_i)-1
 end
 
-def move(move_int)
-  display_board(board[move_int])
+def update_aray_at_with(array,index,value="X")
+  array[index]=value
 end
